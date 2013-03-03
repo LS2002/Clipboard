@@ -4,7 +4,7 @@ Clipboard
 Clipboard app for OS X
 
 
-![Screenshot](https://raw.github.com/hfrahmann/Clipboard/master/screenshot.jpg)
+![Screenshot](https://raw.github.com/hfrahmann/Clipboard/master/screenshot.png)
 
 
 License
