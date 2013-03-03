@@ -39,6 +39,9 @@
         
         NSString* pasteString = [pasteBoard stringForType:@"NSStringPboardType"];
         
+        if(pasteString == nil)
+            return;
+        
         ClipboardItem* clipboardItem = [[ClipboardItem alloc] initWithString:pasteString withAction:@selector(actionSelectClipboardItem:)];
         [clipboardItems insertObject:clipboardItem atIndex:0];
         
