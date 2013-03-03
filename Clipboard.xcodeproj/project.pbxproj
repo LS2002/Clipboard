@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F6988316E3A2B400C990BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F6988216E3A2B400C990BF /* Cocoa.framework */; };
+		06F6988D16E3A2B400C990BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06F6988B16E3A2B400C990BF /* InfoPlist.strings */; };
+		06F6988F16E3A2B400C990BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6988E16E3A2B400C990BF /* main.m */; };
+		06F6989316E3A2B400C990BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 06F6989116E3A2B400C990BF /* Credits.rtf */; };
+		06F6989616E3A2B400C990BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6989516E3A2B400C990BF /* AppDelegate.m */; };
+		06F698A116E3AB8600C990BF /* statusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F6989F16E3AB8600C990BF /* statusBarIcon.png */; };
+		06F698A216E3AB8600C990BF /* statusBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */; };
+		06F698A716E3AFBC00C990BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06F698A616E3AFBC00C990BF /* MainMenu.xib */; };
+		06F698AA16E3B6EF00C990BF /* ClipboardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F698A916E3B6EF00C990BF /* ClipboardItem.m */; };
+		06F698AD16E3C34B00C990BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06F698AF16E3C34B00C990BF /* Localizable.strings */; };
+		06F698B816E3CDDA00C990BF /* clipboardIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 06F698B716E3CDDA00C990BF /* clipboardIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F6987F16E3A2B400C990BF /* Clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F6988216E3A2B400C990BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		06F6988516E3A2B400C990BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		06F6988616E3A2B400C990BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		06F6988716E3A2B400C990BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06F6988A16E3A2B400C990BF /* Clipboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clipboard-Info.plist"; sourceTree = "<group>"; };
+		06F6988C16E3A2B400C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06F6988E16E3A2B400C990BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06F6989016E3A2B400C990BF /* Clipboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipboard-Prefix.pch"; sourceTree = "<group>"; };
+		06F6989216E3A2B400C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		06F6989416E3A2B400C990BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06F6989516E3A2B400C990BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06F6989F16E3AB8600C990BF /* statusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon.png; sourceTree = "<group>"; };
+		06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusBarIcon@2x.png"; sourceTree = "<group>"; };
+		06F698A616E3AFBC00C990BF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		06F698A816E3B6EF00C990BF /* ClipboardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipboardItem.h; sourceTree = "<group>"; };
+		06F698A916E3B6EF00C990BF /* ClipboardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipboardItem.m; sourceTree = "<group>"; };
+		06F698AE16E3C34B00C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06F698B016E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06F698B116E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06F698B216E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
+		06F698B716E3CDDA00C990BF /* clipboardIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = clipboardIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F6987C16E3A2B400C990BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F6988316E3A2B400C990BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F6987616E3A2B400C990BF = {
+			isa = PBXGroup;
+			children = (
+				06F6988816E3A2B400C990BF /* Clipboard */,
+				06F6988116E3A2B400C990BF /* Frameworks */,
+				06F6988016E3A2B400C990BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F6988016E3A2B400C990BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F6987F16E3A2B400C990BF /* Clipboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F6988116E3A2B400C990BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F6988216E3A2B400C990BF /* Cocoa.framework */,
+				06F6988416E3A2B400C990BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06F6988416E3A2B400C990BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F6988516E3A2B400C990BF /* AppKit.framework */,
+				06F6988616E3A2B400C990BF /* CoreData.framework */,
+				06F6988716E3A2B400C990BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		06F6988816E3A2B400C990BF /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				06F6989F16E3AB8600C990BF /* statusBarIcon.png */,
+				06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */,
+				06F698B716E3CDDA00C990BF /* clipboardIcon.icns */,
+				06F698A616E3AFBC00C990BF /* MainMenu.xib */,
+				06F698AF16E3C34B00C990BF /* Localizable.strings */,
+				06F6989416E3A2B400C990BF /* AppDelegate.h */,
+				06F6989516E3A2B400C990BF /* AppDelegate.m */,
+				06F698A816E3B6EF00C990BF /* ClipboardItem.h */,
+				06F698A916E3B6EF00C990BF /* ClipboardItem.m */,
+				06F6988916E3A2B400C990BF /* Supporting Files */,
+			);
+			path = Clipboard;
+			sourceTree = "<group>";
+		};
+		06F6988916E3A2B400C990BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06F6988A16E3A2B400C990BF /* Clipboard-Info.plist */,
+				06F6988B16E3A2B400C990BF /* InfoPlist.strings */,
+				06F6988E16E3A2B400C990BF /* main.m */,
+				06F6989016E3A2B400C990BF /* Clipboard-Prefix.pch */,
+				06F6989116E3A2B400C990BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F6987E16E3A2B400C990BF /* Clipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F6989C16E3A2B400C990BF /* Build configuration list for PBXNativeTarget "Clipboard" */;
+			buildPhases = (
+				06F6987B16E3A2B400C990BF /* Sources */,
+				06F6987C16E3A2B400C990BF /* Frameworks */,
+				06F6987D16E3A2B400C990BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipboard;
+			productName = Clipboard;
+			productReference = 06F6987F16E3A2B400C990BF /* Clipboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F6987716E3A2B400C990BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hendrik Frahmann";
+			};
+			buildConfigurationList = 06F6987A16E3A2B400C990BF /* Build configuration list for PBXProject "Clipboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+			);
+			mainGroup = 06F6987616E3A2B400C990BF;
+			productRefGroup = 06F6988016E3A2B400C990BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F6987E16E3A2B400C990BF /* Clipboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F6987D16E3A2B400C990BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F6988D16E3A2B400C990BF /* InfoPlist.strings in Resources */,
+				06F6989316E3A2B400C990BF /* Credits.rtf in Resources */,
+				06F698A116E3AB8600C990BF /* statusBarIcon.png in Resources */,
+				06F698A216E3AB8600C990BF /* statusBarIcon@2x.png in Resources */,
+				06F698A716E3AFBC00C990BF /* MainMenu.xib in Resources */,
+				06F698AD16E3C34B00C990BF /* Localizable.strings in Resources */,
+				06F698B816E3CDDA00C990BF /* clipboardIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F6987B16E3A2B400C990BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F6988F16E3A2B400C990BF /* main.m in Sources */,
+				06F6989616E3A2B400C990BF /* AppDelegate.m in Sources */,
+				06F698AA16E3B6EF00C990BF /* ClipboardItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06F6988B16E3A2B400C990BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F6988C16E3A2B400C990BF /* en */,
+				06F698B116E3C38900C990BF /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06F6989116E3A2B400C990BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F6989216E3A2B400C990BF /* en */,
+				06F698B216E3C38900C990BF /* de */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		06F698AF16E3C34B00C990BF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F698AE16E3C34B00C990BF /* en */,
+				06F698B016E3C38900C990BF /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06F6989A16E3A2B400C990BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		06F6989B16E3A2B400C990BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		06F6989D16E3A2B400C990BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clipboard/Clipboard-Prefix.pch";
+				INFOPLIST_FILE = "Clipboard/Clipboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06F6989E16E3A2B400C990BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clipboard/Clipboard-Prefix.pch";
+				INFOPLIST_FILE = "Clipboard/Clipboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F6987A16E3A2B400C990BF /* Build configuration list for PBXProject "Clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F6989A16E3A2B400C990BF /* Debug */,
+				06F6989B16E3A2B400C990BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F6989C16E3A2B400C990BF /* Build configuration list for PBXNativeTarget "Clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F6989D16E3A2B400C990BF /* Debug */,
+				06F6989E16E3A2B400C990BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06F6987716E3A2B400C990BF /* Project object */;
+}

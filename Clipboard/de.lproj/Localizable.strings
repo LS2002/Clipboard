@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Clipboard
+
+  Created by Hendrik Frahmann on 03.03.13.
+  Copyright (c) 2013 Hendrik Frahmann. All rights reserved.
+*/
+"Reset" = "Zurücksetzen";
+"Info" = "Info";
+"Quit" = "Beenden";
+"No entries available" = "Keine Einträge vorhanden";
