@@ -97,7 +97,6 @@
             [pasteBoard declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
             [pasteBoard setString:fullText forType:NSStringPboardType];
             
-            // move selected item to the top
             [clipboardItems removeObject:tempItem];
             
             break;
