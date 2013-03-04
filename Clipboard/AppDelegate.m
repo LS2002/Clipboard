@@ -20,6 +20,10 @@
     clipboardItems = [[NSMutableArray alloc] init];
     statusMenu = [NSMenu alloc];
     
+    itemReset = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Reset", nil) action:@selector(actionReset) keyEquivalent:@""];
+    itemInfo = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Info", nil) action:@selector(actionInfo) keyEquivalent:@""];
+    itemQuit = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Quit", nil) action:@selector(actionQuit) keyEquivalent:@""];
+    
     clipboardTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkClipboard) userInfo:nil repeats:YES];
     
     [self createMenu];
@@ -73,11 +77,8 @@
     
     [statusMenu addItem:[NSMenuItem separatorItem]];
     
-    itemReset = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Reset", nil) action:@selector(actionReset) keyEquivalent:@""];
     [statusMenu addItem:itemReset];
-    itemInfo = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Info", nil) action:@selector(actionInfo) keyEquivalent:@""];
     [statusMenu addItem:itemInfo];
-    itemQuit = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Quit", nil) action:@selector(actionQuit) keyEquivalent:@""];
     [statusMenu addItem:itemQuit];
 }
 
