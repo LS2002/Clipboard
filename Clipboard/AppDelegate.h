@@ -7,31 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "ClipboardItem.h"
-
-#define MAX_ITEM_COUNT 20
+#import "ClipboardController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
-    NSStatusItem *statusItem;
-    NSMenu* statusMenu;
-    
-    NSPasteboard* pasteBoard;
-    NSInteger lastPasteBoardChangeCount;
-    NSTimer* clipboardTimer;
-    NSMutableArray* clipboardItems;
-    
-    NSMenuItem* itemNoEntries;
-    NSMenuItem* itemQuit;
-    NSMenuItem* itemInfo;
-    NSMenuItem* itemReset;
+    ClipboardController* clipboardController;
 }
-
-- (void)checkClipboard;
-- (void)createMenu;
-- (void)actionSelectClipboardItem:(id)selector;
-- (void)actionReset;
-- (void)actionInfo;
-- (void)actionQuit;
 
 @end

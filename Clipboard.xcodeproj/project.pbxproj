@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06348FD217355B1A0054D3F5 /* ClipboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06348FD117355B1A0054D3F5 /* ClipboardController.m */; };
 		06F6988316E3A2B400C990BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F6988216E3A2B400C990BF /* Cocoa.framework */; };
 		06F6988D16E3A2B400C990BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06F6988B16E3A2B400C990BF /* InfoPlist.strings */; };
 		06F6988F16E3A2B400C990BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6988E16E3A2B400C990BF /* main.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06348FD017355B1A0054D3F5 /* ClipboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipboardController.h; sourceTree = "<group>"; };
+		06348FD117355B1A0054D3F5 /* ClipboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipboardController.m; sourceTree = "<group>"; };
 		06F6987F16E3A2B400C990BF /* Clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F6988216E3A2B400C990BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		06F6988516E3A2B400C990BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -38,8 +41,8 @@
 		06F698A616E3AFBC00C990BF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		06F698A816E3B6EF00C990BF /* ClipboardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipboardItem.h; sourceTree = "<group>"; };
 		06F698A916E3B6EF00C990BF /* ClipboardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipboardItem.m; sourceTree = "<group>"; };
-		06F698AE16E3C34B00C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		06F698B016E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06F698AE16E3C34B00C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06F698B016E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		06F698B116E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06F698B216E3C38900C990BF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
 		06F698B716E3CDDA00C990BF /* clipboardIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = clipboardIcon.icns; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				06F698AF16E3C34B00C990BF /* Localizable.strings */,
 				06F6989416E3A2B400C990BF /* AppDelegate.h */,
 				06F6989516E3A2B400C990BF /* AppDelegate.m */,
+				06348FD017355B1A0054D3F5 /* ClipboardController.h */,
+				06348FD117355B1A0054D3F5 /* ClipboardController.m */,
 				06F698A816E3B6EF00C990BF /* ClipboardItem.h */,
 				06F698A916E3B6EF00C990BF /* ClipboardItem.m */,
 				06F6988916E3A2B400C990BF /* Supporting Files */,
@@ -194,6 +199,7 @@
 				06F6988F16E3A2B400C990BF /* main.m in Sources */,
 				06F6989616E3A2B400C990BF /* AppDelegate.m in Sources */,
 				06F698AA16E3B6EF00C990BF /* ClipboardItem.m in Sources */,
+				06348FD217355B1A0054D3F5 /* ClipboardController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +338,7 @@
 				06F6989E16E3A2B400C990BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,13 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define ITEM_STRING_LENGTH 50
-
 @interface ClipboardItem : NSObject
 
 @property (strong) NSMenuItem* menuItem;
 @property (strong) NSString* fullText;
 
-- (id)initWithString:(NSString*)fullText withAction:(SEL)aSelector;
+- (id)initWithString:(NSString*)fullText withAction:(SEL)aSelector withTarget:(id)target;
 
 @end

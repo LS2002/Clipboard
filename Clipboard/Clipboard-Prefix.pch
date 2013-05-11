@@ -3,5 +3,9 @@
 //
 
 #ifdef __OBJC__
+
+    #define MAX_ITEM_COUNT 20
+    #define ITEM_STRING_LENGTH 50
+
     #import <Cocoa/Cocoa.h>
 #endif

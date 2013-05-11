@@ -13,7 +13,7 @@
 @synthesize menuItem = _menuItem;
 @synthesize fullText = _fullText;
 
-- (id)initWithString:(NSString *)fullText withAction:(SEL)aSelector
+- (id)initWithString:(NSString *)fullText withAction:(SEL)aSelector withTarget:(id)target;
 {
     NSString* shortedString = @"";
     
@@ -26,6 +26,7 @@
     
     _fullText = fullText;
     _menuItem = [[NSMenuItem alloc] initWithTitle:shortedString action:aSelector keyEquivalent:@""];
+    [_menuItem setTarget:target];
     
     return self;
 }
