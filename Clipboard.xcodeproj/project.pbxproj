@@ -15,7 +15,6 @@
 		06F6989616E3A2B400C990BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6989516E3A2B400C990BF /* AppDelegate.m */; };
 		06F698A116E3AB8600C990BF /* statusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F6989F16E3AB8600C990BF /* statusBarIcon.png */; };
 		06F698A216E3AB8600C990BF /* statusBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */; };
-		06F698A716E3AFBC00C990BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06F698A616E3AFBC00C990BF /* MainMenu.xib */; };
 		06F698AA16E3B6EF00C990BF /* ClipboardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F698A916E3B6EF00C990BF /* ClipboardItem.m */; };
 		06F698AD16E3C34B00C990BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06F698AF16E3C34B00C990BF /* Localizable.strings */; };
 		06F698B816E3CDDA00C990BF /* clipboardIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 06F698B716E3CDDA00C990BF /* clipboardIcon.icns */; };
@@ -38,7 +37,6 @@
 		06F6989516E3A2B400C990BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		06F6989F16E3AB8600C990BF /* statusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon.png; sourceTree = "<group>"; };
 		06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusBarIcon@2x.png"; sourceTree = "<group>"; };
-		06F698A616E3AFBC00C990BF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		06F698A816E3B6EF00C990BF /* ClipboardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipboardItem.h; sourceTree = "<group>"; };
 		06F698A916E3B6EF00C990BF /* ClipboardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipboardItem.m; sourceTree = "<group>"; };
 		06F698AE16E3C34B00C990BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				06F6989F16E3AB8600C990BF /* statusBarIcon.png */,
 				06F698A016E3AB8600C990BF /* statusBarIcon@2x.png */,
 				06F698B716E3CDDA00C990BF /* clipboardIcon.icns */,
-				06F698A616E3AFBC00C990BF /* MainMenu.xib */,
 				06F698AF16E3C34B00C990BF /* Localizable.strings */,
 				06F6989416E3A2B400C990BF /* AppDelegate.h */,
 				06F6989516E3A2B400C990BF /* AppDelegate.m */,
@@ -183,7 +180,6 @@
 				06F6989316E3A2B400C990BF /* Credits.rtf in Resources */,
 				06F698A116E3AB8600C990BF /* statusBarIcon.png in Resources */,
 				06F698A216E3AB8600C990BF /* statusBarIcon@2x.png in Resources */,
-				06F698A716E3AFBC00C990BF /* MainMenu.xib in Resources */,
 				06F698AD16E3C34B00C990BF /* Localizable.strings in Resources */,
 				06F698B816E3CDDA00C990BF /* clipboardIcon.icns in Resources */,
 			);
