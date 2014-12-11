@@ -51,9 +51,9 @@
         ClipboardItem* clipboardItem = [[ClipboardItem alloc] initWithString:pasteString withAction:@selector(actionSelectClipboardItem:) withTarget:self];
         [clipboardItems insertObject:clipboardItem atIndex:0];
         
-        if([clipboardItems count] > MAX_ITEM_COUNT) {
-            [clipboardItems removeObjectAtIndex:[clipboardItems count]-1];
-        }
+        // if([clipboardItems count] > MAX_ITEM_COUNT) {
+        //     [clipboardItems removeObjectAtIndex:[clipboardItems count]-1];
+        // }
         
         [self createMenu];
     }
